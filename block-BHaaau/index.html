@@ -24,28 +24,56 @@
 </head>
 <body>
     <header>
-        <h1>
-            the  box  model ,  box-sizing  &  box-shadow
-        </h1>
+        <h1>The Box Model, Box-Sizing & Box-Shadow</h1>
     </header>
-    <hr style="border: dotted 1px; margin: 0 auto;" >
+    <hr>
     <main>
-        <section class="page">
-            <h4>
-                Exercise1
-            </h4>
-            <div class="boxmodel"></div>
-            <span>
-                <div id="c1"></div>
-                <div>Content</div>
-                <div id="c2"></div>
-                <div>Padding</div>
-                <div id="c3"></div>
-                <div>border</div>
-                <div id="c4"></div>
-                <div>margin</div>
-            </span>
+        <section>
+            <h2>Exercise1</h2>
+            <div class="box"></div>
+            <div class="marker-container">
+                <div class="marker">
+                    <span class="circle content"></span>
+                    <span>Content</span>
+                </div>
+                <div class="marker">
+                    <span class="circle padding"></span>
+                    <span>Padding</span>
+                </div class="marker">
+                <div class="marker">
+                    <span class="circle border""></span>
+                    <span>Border</span>
+                </div>
+                <div class="marker">
+                    <span class="circle margin"></span>
+                    <span>Margin</span>
+                </div>
+            </div>
         </section>
+        <hr>
+        <section>
+            <h2>Exercise2</h2>
+            <p>no border on these boxes</p>
+            <div class="container">
+                <div class="child-box"></div>
+                <div class="child-box"></div>
+                <div class="child-box"></div>
+            </div>
+        </section>
+        <hr>
+        <p>1px border on these boxes</p>
+        <div class="container">
+            <div class="child-box border"></div>
+            <div class="child-box border"></div>
+            <div class="child-box border"></div>
+        </div>
+        <hr>
+        <p>1px border on these boxes but in the same line</p>
+        <div class="container">
+            <div class="child-box border border-box"></div>
+            <div class="child-box border border-box"></div>
+            <div class="child-box border border-box"></div>
+        </div>
     </main>
 </body>
 </html>
