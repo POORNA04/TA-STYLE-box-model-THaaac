@@ -99,8 +99,11 @@ h2{
     background-color: royalblue;
 }
 img{
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    margin: 0 200px;
+    margin: 0px 200px;
+    margin-bottom: 40px;
 }
 hr{
     border-color: grey;
