@@ -97,6 +97,13 @@ h3{
     border-color: blue gray yellow green;
     background-color: brown;
     padding: 20px;
-    margin: 25px;
-    box-shadow:  3px 3px 0px 10px blueviolet;
+}
+.text-container{
+    background-color: blueviolet;
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 20px;
 }
